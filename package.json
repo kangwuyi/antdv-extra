@@ -1,6 +1,6 @@
 {
   "name": "antdv-extra",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "A collection of loading indicators animated with CSS for VueJS 3",
   "author": "Chanwit Piromplad <kingkong2103@gmail.com>",
@@ -13,9 +13,9 @@
     "tsc": "tsc --project tsconfig.bundle.json",
     "bundle": "vite build --config=vite.config.bundle.js && npm run dts"
   },
-  "main": "bundle/antdv-extra.umd.cjs",
-  "module": "bundle/antdv-extra.js",
-  "types": "bundle/components/index.d.ts",
+  "main": "bundle/index.umd.cjs",
+  "module": "bundle/index.es.js",
+  "types": "bundle/index.d.ts",
   "files": [
     "bundle",
     "index.d.ts"

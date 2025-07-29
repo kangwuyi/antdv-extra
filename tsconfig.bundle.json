@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "./bundle",
+    "declarationDir": "./bundle",
     // ES2015
     "target": "ESNext",
     "noImplicitAny": false, //关闭any提示
