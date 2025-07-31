@@ -1,6 +1,6 @@
 {
   "name": "antdv-extra",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "A collection of loading indicators animated with CSS for VueJS 3",
   "author": "Chanwit Piromplad <kingkong2103@gmail.com>",
@@ -16,9 +16,9 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write"
   },
-  "main": "bundle/index.umd.cjs",
+  "main": "bundle/index.umd.js",
   "module": "bundle/index.es.js",
-  "types": "bundle/index.d.ts",
+  "types": "bundle/lib/index.d.ts",
   "files": [
     "bundle",
     "index.d.ts"
