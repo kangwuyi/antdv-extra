@@ -1,7 +1,17 @@
-/dist/*
-/html/*
 .local
-/node_modules/**
-**/*.svg
-**/*.sh
-/public/*
+.dependabot
+.github
+.nuxt
+.vscode
+# 静态资源
+static
+public
+# npm lock
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+# 组件
+node_modules
+# 构建产物
+dist
+bundle

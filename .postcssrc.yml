@@ -1,0 +1,17 @@
+plugins:
+    "@tailwindcss/postcss":
+        optimize:
+            minify: true
+    # 现代的 CSS 特性转化
+    postcss-preset-env:
+        stage: 3
+        features:
+            nesting-rules: false
+        autoprefixer: false
+    # 使用 autoprefixer 插件添加浏览器前缀
+    autoprefixer: {}
+    # postcss-prefix-selector: {}
+    # 使用 cssnano 插件进行 CSS 压缩和优化
+    # cssnano:
+    #    preset: 'default'
+    # stylelint: {}

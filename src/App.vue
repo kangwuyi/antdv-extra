@@ -1,4 +1,4 @@
-<template></template>
+<template>test</template>
 
 <script lang="ts" setup>
 import { defineComponent, reactive, ref, watch } from 'vue'

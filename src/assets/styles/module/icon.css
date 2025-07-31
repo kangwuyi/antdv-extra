@@ -1,0 +1,20 @@
+/* 暗黑模式 */
+.dark {
+  .ti {
+    color: white;
+  }
+}
+.ti {
+  display: inline-block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  color: black;
+  &.active {
+    color: #1677ff;
+  }
+  /*去掉默认谷歌点击边框显示颜色  */
+  &:focus {
+    outline: 0;
+  }
+}

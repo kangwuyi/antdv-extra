@@ -1,14 +1,18 @@
 {
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": "./src/assets/index.css",
   "semi": false,
   "singleQuote": true,
   "trailingComma": "all",
   "printWidth": 100,
   "proseWrap": "never",
   "endOfLine": "lf",
-  "overrides": [{
-    "files": ".prettierrc",
-    "options": {
-      "parser": "json"
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
     }
-  }]
+  ]
 }
